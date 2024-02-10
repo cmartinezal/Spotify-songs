@@ -1,0 +1,12 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+SELECT AVG(ENERGY), AVG(DANCEABILITY), AVG(VALENCE) FROM SONGS;
+| AVG(ENERGY) | AVG(DANCEABILITY) | AVG(VALENCE) |
++-------------+-------------------+--------------+
+| 0.65906     | 0.71646           | 0.484443     |
+
+This person likes happy songs with high energy and danceability so it would be and Orange Aura.
+Orange: Oranges are the rebellious and bold type. They share a need for high-energy, confidence-boosting sounds.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+Other aspects of the songs that could be taken into account, such as tempo, volume, and the values and feelings that the song artists want to convey, are missing.
