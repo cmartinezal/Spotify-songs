@@ -1,0 +1,4 @@
+SELECT
+    AVG(ENERGY)
+FROM
+    SONGS;

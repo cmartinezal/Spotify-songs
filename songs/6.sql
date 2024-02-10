@@ -1,0 +1,8 @@
+SELECT
+    S.NAME
+FROM
+    SONGS S
+    JOIN ARTISTS A
+WHERE
+    S.ARTIST_ID = A.ID
+    AND A.NAME = 'Post Malone';

@@ -1,0 +1,8 @@
+SELECT
+    AVG(S.ENERGY)
+FROM
+    SONGS S
+    JOIN ARTISTS A
+WHERE
+    S.ARTIST_ID = A.ID
+    AND A.NAME = 'Drake';

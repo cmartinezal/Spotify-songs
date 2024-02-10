@@ -1,0 +1,6 @@
+SELECT
+    NAME
+FROM
+    SONGS
+WHERE
+    LOWER(NAME) LIKE '%feat.%';

@@ -1,0 +1,6 @@
+SELECT
+    NAME
+FROM
+    SONGS
+ORDER BY
+    TEMPO ASC;
